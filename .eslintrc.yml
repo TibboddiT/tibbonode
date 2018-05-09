@@ -1,0 +1,26 @@
+plugins:
+  - node
+extends:
+  - eslint:recommended
+  - plugin:node/recommended
+  - airbnb
+rules:
+  indent:
+    - error
+    - 4
+    - SwitchCase: 1
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  node/exports-style:
+    - error
+    - module.exports
+  max-len:
+    - error
+    - 500
