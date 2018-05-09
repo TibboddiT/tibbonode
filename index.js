@@ -50,7 +50,7 @@ function pageToRss(content) {
     };
 }
 
-app.get('/rss', (req, res) => {
+app.get('/github-trending-rss', (req, res) => {
     const cached = cache.get('https://github.com/trending');
     if (cached != null) {
         winston.info('hit cache');
