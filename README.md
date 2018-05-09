@@ -1,2 +1,2 @@
-# github-trending-to-rss
-RSS from https://github.com/trending
+# tibbonode
+A set of goodies in one small project
