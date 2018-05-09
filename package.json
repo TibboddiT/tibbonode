@@ -1,0 +1,24 @@
+{
+  "name": "githubtrendingtorss",
+  "version": "1.0.0",
+  "description": "RSS from https://github.com/trending",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TibboddiT/github-trending-to-rss.git"
+  },
+  "author": "tibbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TibboddiT/github-trending-to-rss/issues"
+  },
+  "homepage": "https://github.com/TibboddiT/github-trending-to-rss#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3"
+  }
+}
