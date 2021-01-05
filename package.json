@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/TibboddiT/github-trending-to-rss#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.2",
     "eslint-plugin-node": "^6.0.1",
     "express": "^4.16.3",
